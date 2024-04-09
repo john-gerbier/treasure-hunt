@@ -5,7 +5,9 @@ This application is a Treasure Hunt game implemented using Ruby on Rails. Player
 
 # Prerequisites
 Ruby (3.3.1)
+
 Rails (version 7.1.3)
+
 PostgreSQL (version 16.2)
 
 # Installation
@@ -37,6 +39,7 @@ Start the Rails server:
 
 # API Endpoints
 `POST /api/guesses`: Submit a guess for the treasure's location.
+
 `GET /api/winners`: Fetch a list of winners sorted by distance.
 
 
@@ -56,7 +59,9 @@ This application can be deployed using various platforms such as Heroku, AWS, or
 
 # Built With
 Ruby on Rails - Web framework
+
 PostgreSQL - Database
+
 Other libraries and dependencies listed in the Gemfile
 
 
